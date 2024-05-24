@@ -1,0 +1,21 @@
+{
+  "name": "vwo-fme-sdk-e2e-test-settings-n-cases",
+  "version": "0.1.0",
+  "description": "VWO FME SDK Test Settings and Cases at one place",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wingify/vwo-fme-sdk-e2e-test-settings-n-cases"
+  },
+  "keywords": [
+    "VWO",
+    "FME",
+    "Tests",
+    "SDK"
+  ],
+  "author": "dev@wingify.com",
+  "license": "Apache-2.0"
+}
