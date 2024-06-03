@@ -553,7 +553,8 @@
         "storageData": {
           "rolloutKey": "feature1_rolloutRule1",
           "rolloutVariationId": 1,
-          "experimentVariationId": 1
+          "experimentVariationId": 1,
+          "experimentKey": "feature1_testingRule1"
         }
       }
     },
