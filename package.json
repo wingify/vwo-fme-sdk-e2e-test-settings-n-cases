@@ -1,6 +1,6 @@
 {
   "name": "vwo-fme-sdk-e2e-test-settings-n-cases",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "VWO FME SDK Test Settings and Cases at one place",
   "main": "index.js",
   "scripts": {
