@@ -7,5 +7,6 @@ module.exports = {
   MEG_CAMPAIGN_RANDOM_ALGO_SETTINGS: require('./src/settings/MegRandomAlgoCampaignSettings.json'),
   MEG_CAMPAIGN_ADVANCE_ALGO_SETTINGS: require('./src/settings/MegAdvanceAlgoCampaignSettings.json'),
 
-  TEST_DATA: require('./src/test-cases/index.json'),
+  GETFLAG_TESTS: require('./src/test-cases/index.json'),
+  SEGMENTATION_TESTS: require('./src/segmentation-test-cases/index.json'),
 };
