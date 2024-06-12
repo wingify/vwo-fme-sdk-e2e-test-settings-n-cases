@@ -8,7 +8,7 @@
   }],
   "autoload": {
     "psr-4": {
-        "vwo\\": "src/"
+        "vwo\\": [ "src/" ]
     }
   },
   "description": "VWO FME PHP SDK Test Settings And Cases"
