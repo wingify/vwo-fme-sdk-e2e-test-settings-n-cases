@@ -6,6 +6,8 @@ module.exports = {
   TESTING_WHITELISTING_SEGMENT_RULE_SETTINGS: require('./src/settings/SettingsWithWhitelisting.json'),
   MEG_CAMPAIGN_RANDOM_ALGO_SETTINGS: require('./src/settings/MegRandomAlgoCampaignSettings.json'),
   MEG_CAMPAIGN_ADVANCE_ALGO_SETTINGS: require('./src/settings/MegAdvanceAlgoCampaignSettings.json'),
+  SETTINGS_WITH_SAME_SALT: require('./src/settings/SettingsWithSameSalt.json'),
+  SETTINGS_WITH_DIFFERENT_SALT: require('./src/settings/SettingsWithDifferentSalt.json'),
 
   GETFLAG_TESTS: require('./src/test-cases/index.json'),
   SEGMENTATION_TESTS: require('./src/segmentation-evaluator/index.json'),
