@@ -7235,13 +7235,14 @@
         "and": [{
           "not": {
             "or": [{
-              "user": "   user    _1 ,    space     user ,     us     er_3     "
-            }]
-          },
-          "and": [{
-            "custom_variable": {
-              "browser": "safari"
+              "user": "   user    _1 ,    space     user ,     us     er_3    "
+              }]
             }
+          }, {
+            "or": [{
+              "custom_variable": {
+                "browser": "safari"
+              }
           }]
         }]
       },
@@ -7256,13 +7257,14 @@
         "and": [{
           "not": {
             "or": [{
-              "user": "   user    _1 ,    space     user ,     us     er_3     "
-            }]
-          },
-          "and": [{
-            "custom_variable": {
-              "browser": "safari"
-            }
+              "user": "   user    _1 ,    space     user ,     us     er_3    "
+              }]  
+            }    
+          }, {
+            "or": [{
+              "custom_variable": {
+                "browser": "safari"
+              }
           }]
         }]
       },
