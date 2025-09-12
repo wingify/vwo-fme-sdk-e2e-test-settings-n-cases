@@ -9,6 +9,11 @@ module.exports = {
   SETTINGS_WITH_SAME_SALT: require('./src/settings/SettingsWithSameSalt.json'),
   SETTINGS_WITH_DIFFERENT_SALT: require('./src/settings/SettingsWithDifferentSalt.json'),
 
+  SETTINGS_WITH_NO_FEATURE_AND_CAMPAIGN: require('./src/settings/SettingsWithNoFeatureAndCampign.json'),
+  SETTINGS_WITH_EXTRA_KEYS_AT_ROOT_LEVEL: require('./src/settings/SettingsWithExtraKeysAtRootLevel.json'),
+  SETTINGS_WITH_EXTRA_KEYS_INSIDE_OBJECTS: require('./src/settings/SettingsWithExtraKeysInsideObjects.json'),
+  SETTINGS_WITH_WRONG_TYPE_FOR_VALUES: require('./src/settings/SettingsWithWrongTypeForValues.json'),
+
   GETFLAG_TESTS: require('./src/test-cases/index.json'),
   SEGMENTATION_TESTS: require('./src/segmentation-evaluator/index.json'),
 };
