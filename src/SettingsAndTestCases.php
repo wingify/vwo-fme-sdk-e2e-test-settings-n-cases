@@ -18,7 +18,14 @@ class SettingsAndTestCases {
       "SETTINGS_WITH_EXTRA_KEYS_INSIDE_OBJECTS" => json_decode(file_get_contents(__DIR__ . "/settings/SettingsWithExtraKeysInsideObjects.json"), false),
       "SETTINGS_WITH_NO_FEATURE_AND_CAMPAIGN" => json_decode(file_get_contents(__DIR__ . "/settings/SettingsWithNoFeatureAndCampign.json"), false),
       "SETTINGS_WITH_WRONG_TYPE_FOR_VALUES" => json_decode(file_get_contents(__DIR__ . "/settings/SettingsWithWrongTypeForValues.json"), false),
-      
+
+      "ROLLOUT_FORCE_USERS_SETTINGS" => json_decode(file_get_contents(__DIR__ . "/settings/RolloutForceUsersSettings.json"), false),
+      "PERSONALIZE_FORCE_USERS_SETTINGS" => json_decode(file_get_contents(__DIR__ . "/settings/PersonalizeForceUsersSettings.json"), false),
+      "ROLLOUT_AND_PERSONALIZE_FORCE_SETTINGS" => json_decode(file_get_contents(__DIR__ . "/settings/RolloutAndPersonalizeForceSettings.json"), false),
+      "ROLLOUT_0_PERSONALIZE_FORCE_ONLY_SETTINGS" => json_decode(file_get_contents(__DIR__ . "/settings/Rollout0PersonalizeForceOnlySettings.json"), false),
+      "MULTI_ROLLOUT_FORCE_SECOND_SETTINGS" => json_decode(file_get_contents(__DIR__ . "/settings/MultiRolloutForceSecondSettings.json"), false),
+      "ROLLOUT_FORCE_DISABLED_SETTINGS" => json_decode(file_get_contents(__DIR__ . "/settings/RolloutForceDisabledSettings.json"), false),
+      "ROLLOUT_FORCE_OFF_HARD_EXCLUDE_SETTINGS" => json_decode(file_get_contents(__DIR__ . "/settings/RolloutForceOffHardExcludeSettings.json"), false),
 
       "GETFLAG_TESTS" => json_decode(file_get_contents(__DIR__ . "/test-cases/index.json"), true),
       "SEGMENTATION_TESTS" => json_decode(file_get_contents(__DIR__ . "/segmentation-evaluator/index.json"), true),

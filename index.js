@@ -14,6 +14,14 @@ module.exports = {
   SETTINGS_WITH_EXTRA_KEYS_INSIDE_OBJECTS: require('./src/settings/SettingsWithExtraKeysInsideObjects.json'),
   SETTINGS_WITH_WRONG_TYPE_FOR_VALUES: require('./src/settings/SettingsWithWrongTypeForValues.json'),
 
+  ROLLOUT_FORCE_USERS_SETTINGS: require('./src/settings/RolloutForceUsersSettings.json'),
+  PERSONALIZE_FORCE_USERS_SETTINGS: require('./src/settings/PersonalizeForceUsersSettings.json'),
+  ROLLOUT_AND_PERSONALIZE_FORCE_SETTINGS: require('./src/settings/RolloutAndPersonalizeForceSettings.json'),
+  ROLLOUT_0_PERSONALIZE_FORCE_ONLY_SETTINGS: require('./src/settings/Rollout0PersonalizeForceOnlySettings.json'),
+  MULTI_ROLLOUT_FORCE_SECOND_SETTINGS: require('./src/settings/MultiRolloutForceSecondSettings.json'),
+  ROLLOUT_FORCE_DISABLED_SETTINGS: require('./src/settings/RolloutForceDisabledSettings.json'),
+  ROLLOUT_FORCE_OFF_HARD_EXCLUDE_SETTINGS: require('./src/settings/RolloutForceOffHardExcludeSettings.json'),
+
   GETFLAG_TESTS: require('./src/test-cases/index.json'),
   SEGMENTATION_TESTS: require('./src/segmentation-evaluator/index.json'),
 };
